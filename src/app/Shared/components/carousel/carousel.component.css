@@ -25,9 +25,10 @@ span{
   transform-style: preserve-3d;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1000px) {
   .contentSlider{
     flex-direction: column;
+    margin: 0;
   }
   #slider {
     width: 60%;
@@ -37,6 +38,7 @@ span{
   .textSlider{
     width: 85%;
   }
+
 }
 
 input[type=radio] {

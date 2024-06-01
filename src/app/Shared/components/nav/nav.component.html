@@ -1,11 +1,11 @@
 <header class="header">
 
     <div class="logo">
-      <a href="#"><img src="../assets/img/logo2.jpg" class="logoimg" ></a>
+      <a href="#"><img src="../assets/img/logo1.png" class="logoimg" ></a>
     </div>
-  <i class="fas fa-bars" id="menuList"></i>
+  <i class="fas fa-bars" id="menuList" (click)="toggleMenu()"></i>
 
-  <nav class="navbar">
+  <nav class="navbar" id="menu" [class.active]="isMenuOpen">
       <a (click)="navigateHome()">Inicio</a>
       <a (click)="navigateTWH2()">The Weekend Hack II</a>
       <a (click)="navigateRegister()" >Registrarse</a>

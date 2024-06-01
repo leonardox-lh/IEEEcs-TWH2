@@ -92,7 +92,7 @@
 }
 .finally{
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -149,5 +149,8 @@
   }
   .right::after{
     left: -7px;
+  }
+  .finally{
+    width: 85%;
   }
 }

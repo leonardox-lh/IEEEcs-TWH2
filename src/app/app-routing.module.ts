@@ -7,7 +7,7 @@ import {RegisterComponent} from "./Shared/pages/register/register.component";
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: MainComponent },
-  { path: 'thaWeekEnd', component: TWK2Component },
+  { path: 'theWeekEnd', component: TWK2Component },
   { path: 'register', component: RegisterComponent },
   { path: '**', redirectTo: 'home', pathMatch: 'full' }
 ];

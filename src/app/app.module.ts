@@ -17,6 +17,7 @@ import { TitleComponent } from './Shared/components/title/title.component';
 import { DatesComponent } from './Shared/components/dates/dates.component';
 import { SponsorsComponent } from './Shared/components/sponsors/sponsors.component';
 import { RegisterComponent } from './Shared/pages/register/register.component';
+import { FooterComponent } from './Shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { RegisterComponent } from './Shared/pages/register/register.component';
     TitleComponent,
     DatesComponent,
     SponsorsComponent,
-    RegisterComponent
+    RegisterComponent,
+    FooterComponent
   ],
     imports: [
         BrowserAnimationsModule,

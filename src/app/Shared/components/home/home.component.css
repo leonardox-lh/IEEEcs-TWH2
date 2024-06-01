@@ -27,21 +27,34 @@ span{
   line-height: 1.3;
 }
 .homeImg{
+  position: relative;
+
   border-radius: 50%;
   margin: 15px 30px ;
-}
-
-.homeImg img{
-  position: relative;
-  border-radius: 50%;
-  width: 300px;
+  background-color: white;
+  min-width: 300px;
+  max-width: 300px;
+  height: 300px;
+  overflow: hidden;
   transition: 0.5s;
   box-shadow: 0 0 25px var(--mainColor);
 }
 
-.homeImg img:hover{
+.homeImg img{
+  left: -25px;
+  top: -25px;
+  position: relative;
+  text-align: center;
+  border-radius: 50%;
+  width: 350px;
+
+}
+
+.homeImg:hover{
   transition: 0.5s;
   box-shadow: 0 0 15px var(--mainColor);
+  background-color: #ffe7e7;
+
 }
 
 .socialMedia a{
@@ -74,7 +87,7 @@ span{
 .typing-text span{
   position: relative;
 }
-.typing-text span::before{
+/*.typing-text span::before{
   content: 'Una Organización de Tecnologia';
   color: var(--mainColor);
   animation: words 15s infinite;
@@ -114,10 +127,19 @@ span{
   35%,68%, 100%{
     width: calc(100% + 8px);
   }
-}
+}*/
 
 @media (max-width: 768px) {
     .homeContent{
       flex-direction: column;
     }
+  .homeImg{
+    width: 200px;
+  }
+  .homeText h1{
+    font-size: 2.2rem;
+  }
+  .homeText h3{
+    font-size: 1.8rem;
+  }
 }
