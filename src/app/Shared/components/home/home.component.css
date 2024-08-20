@@ -9,35 +9,39 @@
 span{
   color: var(--mainColor);
 }
+
 .homeText{
   width: 90%;
-  max-width: 750px;
+  max-width: 800px;
   margin: 15px 30px ;
+}
+.homeText p{
+  font-family: Tahoma;
+  font-size: 1.2rem;
 }
 
 .homeText h3{
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   font-weight: 700;
 }
 .homeText h1{
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: 700;
   line-height: 1.3;
 }
 .homeImg{
   position: relative;
-
   border-radius: 50%;
   margin: 15px 30px ;
-  background-color: white;
+  background-color: #c4c4c4;
   min-width: 300px;
   max-width: 300px;
   height: 300px;
   overflow: hidden;
   transition: 0.5s;
-  box-shadow: 0 0 25px var(--mainColor);
+  box-shadow: 0 0 16px var(--mainColor);
 }
 
 .homeImg img{
@@ -47,14 +51,11 @@ span{
   text-align: center;
   border-radius: 50%;
   width: 350px;
-
 }
 
 .homeImg:hover{
   transition: 0.5s;
-  box-shadow: 0 0 15px var(--mainColor);
-  background-color: #ffe7e7;
-
+  box-shadow: 0 0 20px var(--mainColor);
 }
 
 .socialMedia a{
@@ -74,7 +75,6 @@ span{
 
 .socialMedia a:hover{
   transform: scale(1.2)translateY(-0.1rem);
-  background: white;
   color: var(--mainColor);
   box-shadow: 0 0 25px var(--mainColor);
 }
@@ -135,6 +135,9 @@ span{
     }
   .homeImg{
     width: 200px;
+  }
+  .homeText{
+    max-width: 750px;
   }
   .homeText h1{
     font-size: 2.2rem;

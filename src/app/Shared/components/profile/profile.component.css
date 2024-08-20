@@ -9,7 +9,7 @@
 .card {
   position: relative;
   width: 250px;
-  height: 350px;
+  height: 355px;
   border-radius: 10px;
   margin: 40px ;
   box-shadow: 0 0 10px var(--mainColor);
@@ -55,7 +55,7 @@
 
 .card .content h4 {
   z-index: 52;
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 5px;
   font-weight: bold;
 
@@ -67,7 +67,7 @@
 }
 
 .card .content p {
-  font-size: 13px;
+  font-size: 20px;
 
   margin-top: 10px;
 }
@@ -88,10 +88,10 @@
   transition: .5s;
 }
 
-.card:hover .links {
+/*.card:hover .links {
   right: -50px;
   border-radius: 0 10px 10px 0;
-}
+}*/
 
 
 .card .links a {

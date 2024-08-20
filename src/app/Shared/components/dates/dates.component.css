@@ -21,7 +21,7 @@
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
+  width: 60%;
 }
 
 .container::after{
@@ -44,7 +44,7 @@
 }
 
 .left{
-  left: 0;
+  left: -10%;
 }
 .right{
   left: 50%;
@@ -110,19 +110,21 @@
   border-radius: 5px;
   display: inline-block;
 }
-
+span{
+  color: var(--mainColor);
+}
 .content .decs{
   font-family: "JetBrains Mono";
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding: 5px 0;
 }
 
 .content .decs p{
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding: 10px 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .timeline{
     margin-top: 2rem;
   }
@@ -131,11 +133,11 @@
   }
   .right{
     left: 37px;
-    width: 96%;
+    width: 91%;
   }
   .left{
     left: 37px;
-    width: 96%;
+    width: 91%;
   }
 
   .left::before{
@@ -153,4 +155,42 @@
   .finally{
     width: 85%;
   }
+  .contentButton{
+    flex-direction: column;
+  }
+  .buttonContent button{
+    margin: 0;
+  }
+}
+.contentButton{
+  display: flex;
+  justify-content: center;
+}
+.buttonContent{
+  display: flex;
+  justify-content: center;
+  margin: 10px 40px;
+}
+.buttonContent button{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 3rem;
+  background: transparent;
+  border: 0.15rem solid var(--mainColor);
+  font-size: 1.5rem;
+  color: var(--mainColor);
+  margin: 30px 0.5rem;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px var(--mainColor);
+}
+.buttonContent button:hover{
+  box-shadow: 0 0 15px var(--mainColor);
+  color: var(--mainColor);
+  cursor: pointer;
+}
+.buttonContent button a{
+  color: var(--mainColor);
+  text-decoration: none;
 }

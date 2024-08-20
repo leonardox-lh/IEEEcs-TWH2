@@ -11,10 +11,14 @@ span{
   width: 35%;
 }
 .textSlider h2{
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: 700;
   line-height: 1.3;
+}
+.textSlider p{
+  font-family: Tahoma;
+  font-size: 1.2rem;
 }
 #slider {
   position: relative;
@@ -79,7 +83,7 @@ input[type=radio]:checked {
   align-items: center;
   justify-content: center;
   transition: transform 200ms ease;
-  box-shadow: 0 0 7px var(--mainColor);
+  box-shadow: 0 0 7px var(--white);
 }
 #slider label img {
   position: relative;

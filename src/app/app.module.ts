@@ -18,6 +18,7 @@ import { DatesComponent } from './Shared/components/dates/dates.component';
 import { SponsorsComponent } from './Shared/components/sponsors/sponsors.component';
 import { RegisterComponent } from './Shared/pages/register/register.component';
 import { FooterComponent } from './Shared/components/footer/footer.component';
+import { RegistersComponent } from './Shared/components/registers/registers.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FooterComponent } from './Shared/components/footer/footer.component';
     DatesComponent,
     SponsorsComponent,
     RegisterComponent,
-    FooterComponent
+    FooterComponent,
+    RegistersComponent
   ],
     imports: [
         BrowserAnimationsModule,
